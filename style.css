@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,500,700,900);
+
+body{
+  background-color: #F7F9FC;
+  color: #575F7D;
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+  font-weight: lighter;
+  line-height: 1.4em;
+  padding: 20px;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', serif;
+}
+h1 {
+  color: #575F7D;
+  font-size: 2rem;
+  font-weight: 900;
+}
+h2{
+  color: #7ECE90;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+a {
+  color: #6B72E1;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: 'Roboto', serif;
+}
+a:hover {
+  color: #555555;
+}
+.img-round{
+  border-radius: 100%;
+}
+.card{
+  background-color:#fff;
+  border-radius: 4px;
+  box-shadow:rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 15px 30px;
+  margin: 15px auto;
+  max-width: 60%;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .card {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .card {
+    max-width: 85%;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .card {
+    max-width: 95%;
+  }
+}
